@@ -1,0 +1,18 @@
+{
+  "binary_intent": {
+    "accuracy": 1.0,
+    "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00        53\n           1       1.00      1.00      1.00       461\n\n    accuracy                           1.00       514\n   macro avg       1.00      1.00      1.00       514\nweighted avg       1.00      1.00      1.00       514\n"
+  },
+  "location": {
+    "accuracy": 1.0,
+    "report": "              precision    recall  f1-score   support\n\n          书房       1.00      1.00      1.00        77\n          卧室       1.00      1.00      1.00        77\n         卫生间       1.00      1.00      1.00        57\n          厨房       1.00      1.00      1.00        58\n          客厅       1.00      1.00      1.00        96\n          阳台       1.00      1.00      1.00        38\n          餐厅       1.00      1.00      1.00        58\n\n    accuracy                           1.00       461\n   macro avg       1.00      1.00      1.00       461\nweighted avg       1.00      1.00      1.00       461\n"
+  },
+  "device": {
+    "accuracy": 1.0,
+    "report": "              precision    recall  f1-score   support\n\n         排风扇       1.00      1.00      1.00        19\n         油烟机       1.00      1.00      1.00        19\n           灯       1.00      1.00      1.00       135\n         热水器       1.00      1.00      1.00        38\n          电视       1.00      1.00      1.00        19\n          空调       1.00      1.00      1.00        77\n          窗帘       1.00      1.00      1.00        77\n          风扇       1.00      1.00      1.00        77\n\n    accuracy                           1.00       461\n   macro avg       1.00      1.00      1.00       461\nweighted avg       1.00      1.00      1.00       461\n"
+  },
+  "action": {
+    "accuracy": 1.0,
+    "report": "              precision    recall  f1-score   support\n\n          关闭       1.00      1.00      1.00       231\n          打开       1.00      1.00      1.00       230\n\n    accuracy                           1.00       461\n   macro avg       1.00      1.00      1.00       461\nweighted avg       1.00      1.00      1.00       461\n"
+  }
+}
