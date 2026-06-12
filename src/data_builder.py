@@ -28,8 +28,8 @@ DEVICES_BY_LOCATION = {
 }
 
 ACTION_WORDS = {
-    "打开": ["打开", "开启", "启动", "帮我开", "请打开", "把"],
-    "关闭": ["关闭", "关掉", "停止", "帮我关", "请关闭", "把"],
+    "打开": ["打开", "开启", "启动", "帮我开", "请打开", "开一下", "把"],
+    "关闭": ["关闭", "关掉", "停止", "帮我关", "请关闭", "关上", "关一下", "把"],
 }
 
 POSITIVE_TEMPLATES = [
@@ -88,6 +88,63 @@ NEGATIVE_SENTENCES = [
     "帮我查一下快递",
     "我想看电影",
     "附近有什么好吃的",
+    "打开原神",
+    "关闭原神",
+    "打开微信",
+    "关闭微信",
+    "打开QQ",
+    "关闭QQ",
+    "播放音乐",
+    "暂停音乐",
+    "打开浏览器搜索资料",
+    "关闭这个网页",
+    "帮我查天气",
+    "给妈妈打电话",
+    "发一条微信",
+    "打开课程表",
+    "帮我写作业",
+    "运行代码",
+    "停止程序",
+    "打开摄像头拍照",
+    "关闭闹钟",
+]
+
+SCENE_POSITIVE_SENTENCES = [
+    "我出门了",
+    "出门了",
+    "启动离家模式",
+    "家里没人了",
+    "我回来了",
+    "回家了",
+    "到家了",
+    "启动回家模式",
+    "睡觉了",
+    "我要睡觉",
+    "晚安",
+    "启动睡眠模式",
+    "我要看电影",
+    "打开观影模式",
+    "启动电影模式",
+]
+
+BATCH_POSITIVE_SENTENCES = [
+    "关闭所有灯",
+    "打开所有灯",
+    "关闭全部空调",
+    "打开全屋灯",
+    "把客厅和卧室的灯都关了",
+    "把客厅和书房的空调都打开",
+    "关闭客厅电视和灯",
+    "打开卧室灯和窗帘",
+]
+
+ENVIRONMENT_POSITIVE_SENTENCES = [
+    "客厅有点热",
+    "卧室太热了",
+    "厨房太闷了",
+    "卫生间有点闷",
+    "书房太暗了",
+    "餐厅有点黑",
 ]
 
 
@@ -130,6 +187,11 @@ def build_rows(seed: int = 42) -> tuple[list[dict[str, object]], list[dict[str, 
         for prefix in polite_prefixes:
             text = f"{prefix}{sentence}" if prefix else sentence
             binary_rows.append({"text": text, "label": 0})
+
+    for sentence in SCENE_POSITIVE_SENTENCES + BATCH_POSITIVE_SENTENCES + ENVIRONMENT_POSITIVE_SENTENCES:
+        for prefix in ["", "请", "帮我"]:
+            text = f"{prefix}{sentence}" if prefix else sentence
+            binary_rows.append({"text": text, "label": 1})
 
     random.shuffle(binary_rows)
     random.shuffle(multi_rows)

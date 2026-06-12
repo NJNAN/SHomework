@@ -29,6 +29,8 @@ desktop.ini
 *.log
 tmp/
 temp/
+linux_bigdata/data/*.jsonl
+linux_bigdata/output/
 
 # Documents & archives
 *.docx

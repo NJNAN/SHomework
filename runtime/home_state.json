@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-05-12T08:26:59",
+  "last_command": "打开卧室空调",
+  "last_result": "卧室 空调 开启",
+  "rooms": {
+    "客厅": {
+      "灯": true,
+      "空调": false,
+      "电视": false,
+      "窗帘": false,
+      "风扇": false
+    },
+    "卧室": {
+      "灯": false,
+      "空调": true,
+      "窗帘": false,
+      "风扇": false
+    },
+    "厨房": {
+      "灯": false,
+      "油烟机": false,
+      "热水器": false
+    },
+    "卫生间": {
+      "灯": false,
+      "热水器": false,
+      "排风扇": false
+    },
+    "书房": {
+      "灯": false,
+      "空调": false,
+      "窗帘": true,
+      "风扇": false
+    },
+    "阳台": {
+      "灯": false,
+      "窗帘": false
+    },
+    "餐厅": {
+      "灯": false,
+      "空调": false,
+      "风扇": false
+    }
+  }
+}
