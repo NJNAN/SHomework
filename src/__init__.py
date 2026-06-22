@@ -1,1 +1,1 @@
-"""Smart home voice/text assistant package."""
+"""智能家居语音/文本控制助手包。"""

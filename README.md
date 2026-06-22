@@ -15,7 +15,8 @@
 - **批量控制** — 支持"关闭所有空调"、"把客厅和卧室的灯都关了"等多设备控制
 - **OOS 拒识** — 识别非家居控制语句，避免"打开原神"这类输入误触发设备
 - **GUI 交互** — Tkinter 桌面界面，支持指令输入、结果展示与执行日志
-- **内置 2D 家居面板** — 在软件右侧直接查看各房间电器开启/关闭状态
+- **独立状态看板** — 支持弹出大窗口或 HTML 页面查看各房间电器开启/关闭状态
+- **API 模型增强** — 可选接入 DeepSeek API，用于复杂口语指令语义解析
 - **语音输入** — 可选麦克风语音识别，支持中文普通话
 - **自动训练** — 首次运行若缺少模型文件，自动生成数据集并训练
 - **Linux 大数据侧车** — 独立采集家居状态变化，生成事件日志、批处理报表和流式窗口统计
@@ -36,7 +37,9 @@
 ├── src/                        # 源代码
 │   ├── app.py                      # Tkinter GUI 主界面
 │   ├── intent_engine.py            # 意图解析引擎
+│   ├── api_llm.py                  # 可选 DeepSeek API 语义解析
 │   ├── state_bridge.py             # 软件内部家居状态读写
+│   ├── status_dashboard.py         # HTML 状态看板生成
 │   ├── data_builder.py             # 数据集构建
 │   ├── trainer.py                  # 模型训练
 │   └── voice_input.py              # 语音输入（可选）
@@ -46,7 +49,7 @@
 │   ├── batch_analyze.py            # 批处理统计分析
 │   ├── stream_window.py            # 模拟实时窗口统计
 │   └── linux/                      # Linux 启动脚本和 systemd 服务模板
-├── runtime/home_state.json      # GUI 面板和数据侧车共享的家居状态
+├── runtime/home_state.json      # GUI 看板和数据侧车共享的家居状态
 ├── train_models.py             # 训练入口脚本
 ├── run_app.py                  # 启动入口
 ├── run_console.py              # 命令行控制台入口
@@ -81,9 +84,9 @@ python run_app.py
 
 首次运行会自动检测模型文件，若缺失则自动生成数据集并训练。
 
-### 3. 使用内置 2D 家居状态面板
+### 3. 使用独立家居状态看板
 
-软件右侧提供 2D 家居面板。输入指令并点击"分析指令"后，对应房间里的设备状态会立即点亮或关闭，不需要再启动额外的可视化程序。
+软件右侧提供两个入口："打开状态看板"和"打开 HTML 看板"。输入指令并点击"分析指令"后，独立看板会显示各房间设备开启/关闭状态。
 
 也可以使用命令行控制台写入同一份家居状态：
 
@@ -91,7 +94,7 @@ python run_app.py
 python run_console.py
 ```
 
-输入下面这类指令后，软件右侧 2D 面板会更新：
+输入下面这类指令后，状态看板会更新：
 
 ```text
 打开客厅的灯
@@ -114,6 +117,48 @@ python run_console.py
 
 ```bash
 python train_models.py
+```
+
+### 5. 可选：接入 DeepSeek API
+
+本项目默认仍使用轻量传统模型和规则解析；如果要处理更复杂的口语表达，可以额外配置 DeepSeek API Key：
+
+```powershell
+$env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
+python run_app.py
+```
+
+启动软件后，输入指令并点击：
+
+```text
+API模型解析
+```
+
+命令行也可以测试：
+
+```powershell
+python run_console.py --api
+```
+
+默认模型名是 `deepseek-v4-flash`。如需替换其他 DeepSeek/OpenAI-compatible 模型：
+
+```powershell
+$env:SMART_HOME_API_MODEL="你的模型名"
+python run_app.py
+```
+
+默认调用地址是：
+
+```text
+https://api.deepseek.com/chat/completions
+```
+
+如需接入其他兼容 OpenAI Chat Completions 的服务，也可以修改：
+
+```powershell
+$env:SMART_HOME_API_URL="https://你的服务地址/chat/completions"
+$env:SMART_HOME_API_KEY="你的 API Key"
+python run_app.py
 ```
 
 ## Linux 大数据扩展
@@ -190,6 +235,7 @@ linux_bigdata/README.md
 |分类器|Logistic Regression|线性模型，训练快、可解释、适合中小规模数据|
 |二分类|同上|判断是否属于家居控制语句|
 |槽位分类|同上|分别训练位置/设备/操作三个独立分类器|
+|API 模型|DeepSeek/OpenAI-compatible Chat API|可选增强，输出 JSON 语义帧后映射为设备动作|
 
 ### 推理流程
 
@@ -199,8 +245,9 @@ linux_bigdata/README.md
          → 环境语义推理（热/暗/闷等口语表达）
          → OOS 拒识与二分类模型判断
          → 地点/设备/操作槽位抽取
+         → 可选 API 模型补充语义帧
          → 语义帧与控制动作生成
-         → 更新软件右侧 2D 家居状态面板
+         → 更新独立状态看板 / HTML 看板
 ```
 
 ### 模型指标

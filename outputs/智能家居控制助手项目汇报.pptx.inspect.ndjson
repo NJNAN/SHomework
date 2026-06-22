@@ -1,0 +1,258 @@
+{"kind":"deck","id":"pr/cw1gt0","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"subtitle","type":"subtitle","textPreview":"Click to edit Master subtitle style"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Title and Content","placeholders":[{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"Click to edit Master title style"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Two Content","placeholders":[{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"title","type":"title","textPreview":"Click to edit Master title style"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Three Content","placeholders":[{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"text placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"title","type":"title","textPreview":"Click to edit Master title style"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Four Content","placeholders":[{"name":"text placeholder 2","textPreview":"Click to edit Master"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master"},{"name":"text placeholder 2","textPreview":"Click to edit Master"},{"name":"body","type":"body","textPreview":"Click to edit Master"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"Title Only","placeholders":[{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"},{"name":"title","type":"title","textPreview":"Click to edit Master title style"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"Footer Only","placeholders":[{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"Blank"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout9.xml","name":"36 Field Grid"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout10.xml","name":"48 Field Grid"}
+{"kind":"slide","id":"sl/2x4nap4r","slide":1,"title":"基于 Python 与 NLP 的","textShapes":4}
+{"kind":"textbox","id":"sh/udg7adsj","slide":1,"name":"Title 3","placeholder":"title","text":"基于 Python 与 NLP 的\n智能家居控制助手","textPreview":"基于 Python 与 NLP 的 | 智能家居控制助手","textChars":26,"textLines":2,"bbox":[41.33,182.55,992,261.57]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":1,"name":"Subtitle 4","placeholder":"subtitle","text":"Python 编程综合实训\n2023级智能科学与技术1班\n2026年6月","textPreview":"Python 编程综合实训 | 2023级智能科学与技术1班 | 2026年6月","textChars":36,"textLines":3,"bbox":[41.33,502.83,374.67,127.92]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":1,"name":"Subtitle 4","text":"项目汇报 PPT","textPreview":"项目汇报 PPT","textChars":8,"textLines":1,"bbox":[41.33,41.18,375.69,68.15]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":1,"name":"Subtitle 4","text":"不少于 20 页 · 含代码演示","textPreview":"不少于 20 页 · 含代码演示","textChars":16,"textLines":1,"bbox":[828,41.18,410.67,68.15]}
+{"kind":"notes","id":"nt/2x4nap4r","slide":1,"text":""}
+{"kind":"slide","id":"sl/pg3ex0nu","slide":2,"title":"2","textShapes":3}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":2,"name":"Slide Number Placeholder 1","placeholder":"slideNumber","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":2,"name":"Title 2","placeholder":"title","text":"汇报目录","textPreview":"汇报目录","textChars":4,"textLines":1,"bbox":[41.33,36.12,410.67,109.97]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":2,"name":"Title 2","text":"项目背景与需求\n系统架构与模块\nNLP 解析与模型训练\nGUI、状态看板与 API 增强\n代码演示与大数据侧车\n测试结果与总结","textPreview":"项目背景与需求 | 系统架构与模块 | NLP 解析与模型训练 | GUI、状态看板与 API 增强 | 代码演示与大数据侧车 | 测试结果与总结","textChars":63,"textLines":6,"bbox":[622.67,36.12,616,489.22]}
+{"kind":"notes","id":"nt/pg3ex0nu","slide":2,"text":""}
+{"kind":"slide","id":"sl/s72x4nap","slide":3,"title":"3","textShapes":4}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":3,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":3,"name":"Google Shape;533;p58","placeholder":"title","text":"为什么要做这个系统：把口语指令变成可靠控制动作","textPreview":"为什么要做这个系统：把口语指令变成可靠控制动作","textChars":23,"textLines":1,"bbox":[41.33,36.12,992,385.22]}
+{"kind":"shape","id":"sh/vy90je9c","slide":3,"name":"Rounded Rectangle 9","bbox":[452.38,353.33,374.67,276]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":3,"name":"Rounded Rectangle 10","bbox":[864,353.33,374.67,276]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":3,"name":"Content Placeholder 9","text":"需求痛点\n中文短句没有空格分词，用户还会说“床帘”“关上”“太闷了”等口语表达。","textPreview":"需求痛点 | 中文短句没有空格分词，用户还会说“床帘”“关上”“太闷了”等口语表达。","textChars":40,"textLines":2,"bbox":[485.23,435.29,309.64,150.43]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":3,"name":"Content Placeholder 10","text":"项目定位\n用本地规则 + 轻量机器学习完成离线可运行的智能家居语义解析，并支持可选 API 增强。","textPreview":"项目定位 | 用本地规则 + 轻量机器学习完成离线可运行的智能家居语义解析，并支持可选 API 增强。","textChars":49,"textLines":2,"bbox":[896.18,435.29,309.64,150.43]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":3,"name":"Google Shape;340;p61","bbox":[485.84,387.83,24.55,24.54]}
+{"kind":"shape","id":"sh/61032lsz","slide":3,"name":"Google Shape;340;p61","bbox":[895.88,387.83,24.55,24.54]}
+{"kind":"notes","id":"nt/s72x4nap","slide":3,"text":""}
+{"kind":"slide","id":"sl/val87ed8","slide":4,"title":"系统能力覆盖从输入、理解、执行到展示的完整闭环。","textShapes":5}
+{"kind":"textbox","id":"sh/sneloj2t","slide":4,"name":"Google Shape;534;p58","text":"系统能力覆盖从输入、理解、执行到展示的完整闭环。","textPreview":"系统能力覆盖从输入、理解、执行到展示的完整闭环。","textChars":24,"textLines":1,"bbox":[41.33,207.57,581.33,416]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":4,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":4,"name":"Google Shape;533;p58","placeholder":"title","text":"项目目标与核心功能","textPreview":"项目目标与核心功能","textChars":9,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":4,"name":"Rounded Rectangle 1","bbox":[657.33,213.33,271.07,416]}
+{"kind":"shape","id":"sh/je9cvixc","slide":4,"name":"Rounded Rectangle 2","bbox":[965.98,213.33,272.69,416]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":4,"name":"Content Placeholder 17","text":"本地解析主线\n文本归一化、场景模式、OOS 拒识、槽位抽取、批量动作生成。","textPreview":"本地解析主线 | 文本归一化、场景模式、OOS 拒识、槽位抽取、批量动作生成。","textChars":37,"textLines":2,"bbox":[685.17,441.39,225.24,167.88]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":4,"name":"Text Placeholder 18","text":"交互与展示\nTkinter GUI、控制台、网页看板、共享 JSON 状态文件。","textPreview":"交互与展示 | Tkinter GUI、控制台、网页看板、共享 JSON 状态文件。","textChars":40,"textLines":2,"bbox":[993.51,441.39,225.65,167.88]}
+{"kind":"notes","id":"nt/val87ed8","slide":4,"text":""}
+{"kind":"slide","id":"sl/mlkjm1cf","slide":5,"title":"5","textShapes":3}
+{"kind":"shape","id":"sh/ovahoza1","slide":5,"name":"object 3","bbox":[622.67,0,657.33,720]}
+{"kind":"textbox","id":"sh/sji5snel","slide":5,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":5,"name":"Google Shape;533;p58","placeholder":"title","text":"系统架构\n与模块协作","textPreview":"系统架构 | 与模块协作","textChars":10,"textLines":2,"bbox":[41.33,36.12,581.33,281.22]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":5,"name":"Google Shape;533;p58","text":"输入 → 解析 → 状态 → 看板 / 侧车","textPreview":"输入 → 解析 → 状态 → 看板 / 侧车","textChars":22,"textLines":1,"bbox":[657.33,451.14,581.33,222.32]}
+{"kind":"notes","id":"nt/mlkjm1cf","slide":5,"text":""}
+{"kind":"slide","id":"sl/58z25kb6","slide":6,"title":"6","textShapes":10}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":6,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":6,"name":"Google Shape;533;p58","placeholder":"title","text":"核心模块总览","textPreview":"核心模块总览","textChars":6,"textLines":1,"bbox":[41.33,164.57,1197.33,188.76]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":6,"name":"Freeform 10","text":"run_app.py","textPreview":"run_app.py","textChars":10,"textLines":1,"bbox":[94.5,429.44,188.87,34.61]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":6,"name":"Freeform 11","text":"src/app.py","textPreview":"src/app.py","textChars":10,"textLines":1,"bbox":[393.36,429.44,188.87,34.61]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":6,"name":"Freeform 12","text":"intent_engine.py","textPreview":"intent_engine.py","textChars":16,"textLines":1,"bbox":[692.23,429.44,188.87,34.61]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":6,"name":"Freeform 13","text":"trainer.py","textPreview":"trainer.py","textChars":10,"textLines":1,"bbox":[991.1,429.44,188.87,34.61]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":6,"name":"Freeform 14","text":"state_bridge.py","textPreview":"state_bridge.py","textChars":15,"textLines":1,"bbox":[94.5,536.31,188.87,34.61]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":6,"name":"Freeform 15","text":"status_dashboard.py","textPreview":"status_dashboard.py","textChars":19,"textLines":1,"bbox":[393.36,536.31,188.87,34.61]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":6,"name":"Freeform 16","text":"api_llm.py","textPreview":"api_llm.py","textChars":10,"textLines":1,"bbox":[692.23,536.31,188.87,34.61]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":6,"name":"Freeform 17","text":"linux_bigdata/","textPreview":"linux_bigdata/","textChars":14,"textLines":1,"bbox":[991.1,536.31,188.87,34.61]}
+{"kind":"notes","id":"nt/58z25kb6","slide":6,"text":""}
+{"kind":"slide","id":"sl/0z61032l","slide":7,"title":"7","textShapes":2}
+{"kind":"textbox","id":"sh/dcbulwva","slide":7,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":7,"name":"Google Shape;533;p58","placeholder":"title","text":"主要文件职责对照","textPreview":"主要文件职责对照","textChars":8,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"table","id":"tb/2lszqtcj","slide":7,"name":"Google Shape;644;p93","rows":8,"cols":5,"preview":"文件 | 职责 | 主要输入 | 主要输出 | 配合模块","bbox":[41.33,249.33,1197.33,367]}
+{"kind":"notes","id":"nt/0z61032l","slide":7,"text":""}
+{"kind":"slide","id":"sl/fu18jqh0","slide":8,"title":"本地解析","textShapes":4}
+{"kind":"textbox","id":"sh/sji5snel","slide":8,"name":"Google Shape;534;p58","text":"本地解析\n规则优先处理场景、批量、环境语义和别名归一化；TF-IDF + Logistic Regression 负责普通短句分类。\n\n优点：离线可运行、速度快、逻辑可解释，适合课程展示和基础控制闭环。","textPreview":"本地解析 | 规则优先处理场景、批量、环境语义和别名归一化；TF-IDF + Logistic Regression 负责普通短句分类。 |  | 优点：离线可运行、速度快、逻辑可解释，适合课程展示和基础控制闭环。","textChars":101,"textLines":4,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":8,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":8,"name":"Content Placeholder 1","text":"API 增强\n配置 DEEPSEEK_API_KEY 后，api_llm.py 请求 OpenAI-compatible Chat Completions，让模型输出 JSON 语义帧。\n\n防护：返回结果必须通过房间、设备、动作白名单校验，不接受模型编造的设备。","textPreview":"API 增强 | 配置 DEEPSEEK_API_KEY 后，api_llm.py 请求 OpenAI-compatible Chat Completions，让模型输出 JSON 语义帧。 |  | 防护：返回结果必须通过房间、设备、动作白名单校验，不接受模型编造的设备。","textChars":131,"textLines":4,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":8,"name":"Google Shape;533;p58","placeholder":"title","text":"本地模型与 API 增强的分工","textPreview":"本地模型与 API 增强的分工","textChars":15,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"notes","id":"nt/fu18jqh0","slide":8,"text":""}
+{"kind":"slide","id":"sl/qh0fepkz","slide":9,"title":"9","textShapes":8}
+{"kind":"textbox","id":"sh/sji5snel","slide":9,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":9,"name":"Google Shape;533;p58","placeholder":"title","text":"系统运行链路：解析结果驱动共享状态","textPreview":"系统运行链路：解析结果驱动共享状态","textChars":17,"textLines":1,"bbox":[41.33,36.12,822.67,61.06]}
+{"kind":"shape","id":"sh/ovahoza1","slide":9,"name":"Rounded Rectangle 1","bbox":[41.68,317.62,580.99,138.67]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":9,"name":"Content Placeholder 10","text":"GUI、控制台和语音输入最终都进入同一套 ParseResult / ControlCommand 数据结构。","textPreview":"GUI、控制台和语音输入最终都进入同一套 ParseResult / ControlCommand 数据结构。","textChars":55,"textLines":1,"bbox":[72.89,343.75,523.56,92.16]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":9,"name":"Content Placeholder 15","text":"输入层\n文本框、语音识别、API 按钮","textPreview":"输入层 | 文本框、语音识别、API 按钮","textChars":19,"textLines":2,"bbox":[72.89,474,549.78,102.67]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":9,"name":"Rounded Rectangle 7","bbox":[657.3,317.62,580.99,138.67]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":9,"name":"Content Placeholder 10","text":"解析层\n规则场景识别 + TF-IDF/LogReg 槽位模型","textPreview":"解析层 | 规则场景识别 + TF-IDF/LogReg 槽位模型","textChars":31,"textLines":2,"bbox":[688.51,343.75,523.56,92.16]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":9,"name":"Content Placeholder 15","text":"状态层\napply_parse_result 写入 runtime/home_state.json","textPreview":"状态层 | apply_parse_result 写入 runtime/home_state.json","textChars":49,"textLines":2,"bbox":[688.51,474,549.78,102.67]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":9,"name":"Content Placeholder 15","text":"数据流\n用户指令 → 语义帧 → 设备动作 → JSON 状态 → GUI / HTML / 侧车","textPreview":"数据流 | 用户指令 → 语义帧 → 设备动作 → JSON 状态 → GUI / HTML / 侧车","textChars":49,"textLines":2,"bbox":[42.09,121.52,1197.33,171.05]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":9,"name":"Content Placeholder 15","text":"关键点：状态文件是跨界面、跨脚本、跨平台扩展的共享契约。","textPreview":"关键点：状态文件是跨界面、跨脚本、跨平台扩展的共享契约。","textChars":28,"textLines":1,"bbox":[42.09,589.81,1197.33,55.62]}
+{"kind":"notes","id":"nt/qh0fepkz","slide":9,"text":""}
+{"kind":"slide","id":"sl/29gr2p8n","slide":10,"title":"10","textShapes":3}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":10,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":10,"name":"Google Shape;533;p58","placeholder":"title","text":"数据集与模型设计","textPreview":"数据集与模型设计","textChars":8,"textLines":1,"bbox":[41.33,36.12,822.67,61.06]}
+{"kind":"textbox","id":"sh/83itgfml","slide":10,"name":"Content Placeholder 15","text":"模板构造覆盖 7 个房间、8 类设备、2 类动作，并加入游戏、软件、天气等负样本，训练 OOS 拒识能力。","textPreview":"模板构造覆盖 7 个房间、8 类设备、2 类动作，并加入游戏、软件、天气等负样本，训练 OOS 拒识能力。","textChars":53,"textLines":1,"bbox":[42.09,121.52,1197.33,106.27]}
+{"kind":"table","id":"tb/y1kre1w7","slide":10,"name":"Table 4","rows":8,"cols":10,"preview":"模块 | 数据 | 输入 | 输出 | 特征 | 模型 | 指标 | 文件 | 风险 | 改进","bbox":[42.09,249.33,1197.33,380]}
+{"kind":"notes","id":"nt/29gr2p8n","slide":10,"text":""}
+{"kind":"slide","id":"sl/re1w7mp0","slide":11,"title":"11","textShapes":5}
+{"kind":"shape","id":"sh/onyd0z61","slide":11,"name":"Rounded Rectangle 3","bbox":[622.67,41.33,616,172]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":11,"name":"Rounded Rectangle 4","bbox":[622.67,248.8,616,172]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":11,"name":"Rounded Rectangle 5","bbox":[622.67,457.33,616,172]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":11,"name":"Slide Number Placeholder 1","placeholder":"slideNumber","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":11,"name":"Title 2","placeholder":"title","text":"三项关键技术","textPreview":"三项关键技术","textChars":6,"textLines":1,"bbox":[41.33,36.12,517.39,109.97]}
+{"kind":"textbox","id":"sh/sji5snel","slide":11,"name":"Content Placeholder 10","text":"规则优先\n场景模式、环境语义、别名归一化先处理，避免“我出门了”等多动作指令被单槽位模型误判。","textPreview":"规则优先 | 场景模式、环境语义、别名归一化先处理，避免“我出门了”等多动作指令被单槽位模型误判。","textChars":47,"textLines":2,"bbox":[657.33,70.65,555.11,113.36]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":11,"name":"Content Placeholder 10","text":"模型兜底\n字符级 TF-IDF 适合中文短句，无需分词；Logistic Regression 训练快、可解释。","textPreview":"模型兜底 | 字符级 TF-IDF 适合中文短句，无需分词；Logistic Regression 训练快、可解释。","textChars":56,"textLines":2,"bbox":[657.33,279.77,555.11,110.07]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":11,"name":"Content Placeholder 10","text":"安全拒识\n设备词 + 动作词粗筛，再用二分类置信度阈值，降低“打开原神”误触发风险。","textPreview":"安全拒识 | 设备词 + 动作词粗筛，再用二分类置信度阈值，降低“打开原神”误触发风险。","textChars":42,"textLines":2,"bbox":[657.33,488.85,555.11,108.97]}
+{"kind":"notes","id":"nt/re1w7mp0","slide":11,"text":""}
+{"kind":"slide","id":"sl/4fu18jqh","slide":12,"title":"12","textShapes":14}
+{"kind":"textbox","id":"sh/4r65wjud","slide":12,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":12,"name":"Google Shape;533;p58","placeholder":"title","text":"模块协作关系","textPreview":"模块协作关系","textChars":6,"textLines":1,"bbox":[41.33,36.12,374.67,109.97]}
+{"kind":"textbox","id":"sh/z61032ls","slide":12,"name":"Content Placeholder 10","text":"data_builder.py 生成 binary / multi-slot CSV","textPreview":"data_builder.py 生成 binary / multi-slot CSV","textChars":42,"textLines":1,"bbox":[660.62,41.33,578.04,68]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":12,"name":"Content Placeholder 10","text":"数据构建","textPreview":"数据构建","textChars":4,"textLines":1,"bbox":[452.62,41.33,187.38,68]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":12,"name":"Content Placeholder 10","text":"trainer.py 写入 models/*.joblib 和 metrics.json","textPreview":"trainer.py 写入 models/*.joblib 和 metrics.json","textChars":44,"textLines":1,"bbox":[660.62,146.67,578.04,68]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":12,"name":"Content Placeholder 10","text":"模型训练","textPreview":"模型训练","textChars":4,"textLines":1,"bbox":[452.62,146.67,187.38,68]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":12,"name":"Content Placeholder 10","text":"intent_engine.py 输出 ParseResult 和动作列表","textPreview":"intent_engine.py 输出 ParseResult 和动作列表","textChars":37,"textLines":1,"bbox":[660.62,249.33,578.04,68]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":12,"name":"Content Placeholder 10","text":"本地解析","textPreview":"本地解析","textChars":4,"textLines":1,"bbox":[452.62,249.33,187.38,68]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":12,"name":"Content Placeholder 10","text":"state_bridge.py 更新 runtime/home_state.json","textPreview":"state_bridge.py 更新 runtime/home_state.json","textChars":42,"textLines":1,"bbox":[660.62,353.33,578.04,68]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":12,"name":"Content Placeholder 10","text":"状态同步","textPreview":"状态同步","textChars":4,"textLines":1,"bbox":[452.62,353.33,187.38,68]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":12,"name":"Content Placeholder 10","text":"app.py 与 status_dashboard.py 展示解析和设备状态","textPreview":"app.py 与 status_dashboard.py 展示解析和设备状态","textChars":38,"textLines":1,"bbox":[660.62,457.33,578.04,68]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":12,"name":"Content Placeholder 10","text":"界面展示","textPreview":"界面展示","textChars":4,"textLines":1,"bbox":[452.62,457.33,187.38,68]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":12,"name":"Content Placeholder 10","text":"linux_bigdata/ 读取事件日志并生成统计报表","textPreview":"linux_bigdata/ 读取事件日志并生成统计报表","textChars":28,"textLines":1,"bbox":[660.62,562.67,578.04,68]}
+{"kind":"textbox","id":"sh/7u54zido","slide":12,"name":"Content Placeholder 10","text":"数据侧车","textPreview":"数据侧车","textChars":4,"textLines":1,"bbox":[452.62,562.67,187.38,68]}
+{"kind":"notes","id":"nt/4fu18jqh","slide":12,"text":""}
+{"kind":"slide","id":"sl/lwval87e","slide":13,"title":"文本归一化","textShapes":5}
+{"kind":"textbox","id":"sh/ji5snelo","slide":13,"name":"Google Shape;534;p58","text":"文本归一化\n床帘→窗帘，排气扇→排风扇，关上/关了→关闭，减少同义表达造成的槽位偏差。","textPreview":"文本归一化 | 床帘→窗帘，排气扇→排风扇，关上/关了→关闭，减少同义表达造成的槽位偏差。","textChars":43,"textLines":2,"bbox":[41.33,353.33,374.67,276]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":13,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":13,"name":"Content Placeholder 1","text":"批量与场景\n“关闭所有空调”展开到拥有空调的房间；“我出门了”生成 6 个关闭动作。","textPreview":"批量与场景 | “关闭所有空调”展开到拥有空调的房间；“我出门了”生成 6 个关闭动作。","textChars":42,"textLines":2,"bbox":[453.33,353.33,374.67,276]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":13,"name":"Content Placeholder 2","text":"状态看板\n状态写入 runtime/home_state.json，HTML 每 2 秒刷新，GUI 弹窗同步读取。","textPreview":"状态看板 | 状态写入 runtime/home_state.json，HTML 每 2 秒刷新，GUI 弹窗同步读取。","textChars":58,"textLines":2,"bbox":[864.28,353.33,374.67,276]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":13,"name":"Google Shape;533;p58","placeholder":"title","text":"关键实现细节","textPreview":"关键实现细节","textChars":6,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"notes","id":"nt/lwval87e","slide":13,"text":""}
+{"kind":"slide","id":"sl/25kb6xkf","slide":14,"title":"界面与扩展","textShapes":8}
+{"kind":"shape","id":"sh/a1gvy90j","slide":14,"name":"Rounded Rectangle 18","bbox":[864.39,317.33,271.07,312]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":14,"name":"Content Placeholder 15","text":"界面与扩展\n完成 GUI / HTML 看板；增加 API 与大数据侧车。","textPreview":"界面与扩展 | 完成 GUI / HTML 看板；增加 API 与大数据侧车。","textChars":37,"textLines":2,"bbox":[888.04,349.17,225.24,176.17]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":14,"name":"Text Placeholder 16","text":"阶段 3","textPreview":"阶段 3","textChars":4,"textLines":1,"bbox":[891.06,582.12,177.1,21.73]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":14,"name":"Google Shape;2261;p159","bbox":[888.26,555.18,11.24,11.24]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":14,"name":"Rounded Rectangle 11","bbox":[450.75,317.33,271.07,312]}
+{"kind":"textbox","id":"sh/sji5snel","slide":14,"name":"Content Placeholder 15","text":"模型与解析\n训练四个模型；加入场景、批量、拒识规则。","textPreview":"模型与解析 | 训练四个模型；加入场景、批量、拒识规则。","textChars":26,"textLines":2,"bbox":[474.4,349.17,225.24,176.17]}
+{"kind":"shape","id":"sh/donyd0z6","slide":14,"name":"Rounded Rectangle 6","bbox":[41.33,317.33,271.07,312]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":14,"name":"Content Placeholder 15","text":"阶段 1","textPreview":"阶段 1","textChars":4,"textLines":1,"bbox":[64.98,582.65,181.68,20.25]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":14,"name":"Slide Number Placeholder 3","placeholder":"slideNumber","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":14,"name":"Title 10","placeholder":"title","text":"项目实现时间线","textPreview":"项目实现时间线","textChars":7,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":14,"name":"Text Placeholder 16","placeholder":"body","text":"阶段 2","textPreview":"阶段 2","textChars":4,"textLines":1,"bbox":[477.41,582.12,177.1,21.73]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":14,"name":"Google Shape;2259;p159","bbox":[64.98,560.8,1285.61,0.03]}
+{"kind":"shape","id":"sh/dcbulwva","slide":14,"name":"Google Shape;2260;p159","bbox":[64.98,555.18,11.24,11.24]}
+{"kind":"shape","id":"sh/vixczed8","slide":14,"name":"Google Shape;2261;p159","bbox":[474.61,555.18,11.24,11.24]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":14,"name":"Content Placeholder 15","text":"需求与数据\n定义房间、设备、动作词表；构造正负样本。","textPreview":"需求与数据 | 定义房间、设备、动作词表；构造正负样本。","textChars":26,"textLines":2,"bbox":[64.98,349.17,225.24,176.17]}
+{"kind":"notes","id":"nt/25kb6xkf","slide":14,"text":""}
+{"kind":"slide","id":"sl/7y1kre1w","slide":15,"title":"15","textShapes":11}
+{"kind":"textbox","id":"sh/g7adsji5","slide":15,"name":"Slide Number Placeholder 3","placeholder":"slideNumber","text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/cvixczed","slide":15,"name":"Title 10","placeholder":"title","text":"当前项目规模与指标","textPreview":"当前项目规模与指标","textChars":9,"textLines":1,"bbox":[41.33,36.12,581.02,109.97]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":15,"name":"Rounded Rectangle 2","bbox":[41.33,213.33,271.07,278.9]}
+{"kind":"shape","id":"sh/yd0z6103","slide":15,"name":"Rounded Rectangle 1","bbox":[0,565.45,1280,156]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":15,"name":"Content Placeholder 9","text":"7间","textPreview":"7间","textChars":2,"textLines":1,"bbox":[66.25,236.42,223.97,94.88]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":15,"name":"Content Placeholder 15","text":"房间范围\n客厅、卧室、厨房等","textPreview":"房间范围 | 客厅、卧室、厨房等","textChars":14,"textLines":2,"bbox":[73.25,392.67,216.98,64.67]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":15,"name":"Rounded Rectangle 33","bbox":[351.28,213.33,271.07,278.9]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":15,"name":"Content Placeholder 9","text":"8类","textPreview":"8类","textChars":2,"textLines":1,"bbox":[376.19,236.42,223.97,94.88]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":15,"name":"Content Placeholder 15","text":"设备类型\n灯、空调、窗帘、风扇等","textPreview":"设备类型 | 灯、空调、窗帘、风扇等","textChars":16,"textLines":2,"bbox":[383.19,392.67,216.98,64.67]}
+{"kind":"shape","id":"sh/0z61032l","slide":15,"name":"Rounded Rectangle 36","bbox":[658.48,213.33,271.07,278.9]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":15,"name":"Content Placeholder 9","text":"4个","textPreview":"4个","textChars":2,"textLines":1,"bbox":[683.4,236.42,223.97,94.88]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":15,"name":"Content Placeholder 15","text":"本地模型\n意图二分类 + 三个槽位模型","textPreview":"本地模型 | 意图二分类 + 三个槽位模型","textChars":19,"textLines":2,"bbox":[690.39,392.67,216.98,64.67]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":15,"name":"Rounded Rectangle 39","bbox":[968.42,213.33,271.07,278.9]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":15,"name":"Content Placeholder 9","text":"99.7%","textPreview":"99.7%","textChars":5,"textLines":1,"bbox":[993.34,236.42,223.97,94.88]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":15,"name":"Content Placeholder 15","text":"二分类准确率\nmetrics.json 实测","textPreview":"二分类准确率 | metrics.json 实测","textChars":22,"textLines":2,"bbox":[1000.33,392.67,216.98,64.67]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":15,"name":"Content Placeholder 2","text":"指标来自本次运行 python train_models.py 后生成的 models/metrics.json；模板数据覆盖课程演示，真实语音场景仍需补充数据。","textPreview":"指标来自本次运行 python train_models.py 后生成的 models/metrics.json；模板数据覆盖课程演示，真实语音场景仍需补充数据。","textChars":81,"textLines":1,"bbox":[657.33,42.09,581.61,104]}
+{"kind":"notes","id":"nt/7y1kre1w","slide":15,"text":""}
+{"kind":"slide","id":"sl/8z25kb6x","slide":16,"title":"16","textShapes":7}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":16,"name":"Slide Number Placeholder 3","placeholder":"slideNumber","text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":16,"name":"Title 10","placeholder":"title","text":"模型训练结果","textPreview":"模型训练结果","textChars":6,"textLines":1,"bbox":[41.33,36.12,581.02,109.97]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":16,"name":"Content Placeholder 9","text":"99.7%","textPreview":"99.7%","textChars":5,"textLines":1,"bbox":[679.03,427.54,223.97,94.88]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":16,"name":"Content Placeholder 15","text":"binary_intent\n家居/非家居","textPreview":"binary_intent | 家居/非家居","textChars":20,"textLines":2,"bbox":[686.03,532.1,216.98,64.67]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":16,"name":"Content Placeholder 9","text":"100%","textPreview":"100%","textChars":4,"textLines":1,"bbox":[988.97,427.54,223.97,94.88]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":16,"name":"Content Placeholder 15","text":"slot models\n地点/设备/动作","textPreview":"slot models | 地点/设备/动作","textChars":20,"textLines":2,"bbox":[995.97,532.1,216.98,64.67]}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":16,"name":"Rounded Rectangle 1","bbox":[41.33,109.33,580.19,570.61]}
+{"kind":"shape","id":"sh/wval87ed","slide":16,"name":"Rectangle 2","bbox":[657.33,457.33,7.05,120.95]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":16,"name":"Rectangle 4","bbox":[966.67,457.33,7.05,120.95]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":16,"name":"Content Placeholder 1","text":"训练命令：python train_models.py\n输出：binary_intent 0.997；location / device / action 均为 1.0。","textPreview":"训练命令：python train_models.py | 输出：binary_intent 0.997；location / device / action 均为 1.0。","textChars":85,"textLines":2,"bbox":[657.33,179.45,555.61,169.46]}
+{"kind":"chart","id":"ch/w3m94fu1","slide":16,"name":"Chart 6","chartType":"line","title":"模型准确率（%）","bbox":[67.06,131.73,537.97,527.51]}
+{"kind":"notes","id":"nt/8z25kb6x","slide":16,"text":""}
+{"kind":"slide","id":"sl/54zidony","slide":17,"title":"17","textShapes":7}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":17,"name":"Slide Number Placeholder 3","placeholder":"slideNumber","text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":17,"name":"Title 10","placeholder":"title","text":"Linux 大数据侧车统计","textPreview":"Linux 大数据侧车统计","textChars":13,"textLines":1,"bbox":[41.33,36.12,581.02,109.97]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":17,"name":"Content Placeholder 9","text":"36条","textPreview":"36条","textChars":3,"textLines":1,"bbox":[679.03,427.54,223.97,94.88]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":17,"name":"Content Placeholder 15","text":"演示事件\ncommand_replay --repeat 2","textPreview":"演示事件 | command_replay --repeat 2","textChars":30,"textLines":2,"bbox":[686.03,532.1,216.98,64.67]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":17,"name":"Content Placeholder 9","text":"7间","textPreview":"7间","textChars":2,"textLines":1,"bbox":[988.97,427.54,223.97,94.88]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":17,"name":"Content Placeholder 15","text":"覆盖房间\nTop3: 客厅 / 卧室 / 厨房","textPreview":"覆盖房间 | Top3: 客厅 / 卧室 / 厨房","textChars":23,"textLines":2,"bbox":[995.97,532.1,216.98,64.67]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":17,"name":"Rounded Rectangle 1","bbox":[41.33,109.33,580.19,570.61]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":17,"name":"Rectangle 2","bbox":[657.33,457.33,7.05,120.95]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":17,"name":"Rectangle 4","bbox":[966.67,457.33,7.05,120.95]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":17,"name":"Content Placeholder 1","text":"侧车读取 events.jsonl，不修改主程序状态；batch_analyze 输出 CSV 与 Markdown 报告，stream_window 模拟实时窗口。","textPreview":"侧车读取 events.jsonl，不修改主程序状态；batch_analyze 输出 CSV 与 Markdown 报告，stream_window 模拟实时窗口。","textChars":83,"textLines":1,"bbox":[657.33,179.45,555.61,169.46]}
+{"kind":"chart","id":"ch/kb6xkf6d","slide":17,"name":"Chart 6","chartType":"bar","title":"按房间统计事件数","bbox":[67.06,131.73,537.97,527.51]}
+{"kind":"notes","id":"nt/54zidony","slide":17,"text":""}
+{"kind":"slide","id":"sl/m58z25kb","slide":18,"title":"01","textShapes":5}
+{"kind":"textbox","id":"sh/j6tovaho","slide":18,"name":"Google Shape;534;p58","text":"01\n单设备控制\n打开客厅空调、关闭卧室灯，直接提取位置 / 设备 / 动作。\n示例：客厅空调打开","textPreview":"01 | 单设备控制 | 打开客厅空调、关闭卧室灯，直接提取位置 / 设备 / 动作。 | 示例：客厅空调打开","textChars":49,"textLines":4,"bbox":[41.33,251.11,374.67,378.22]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":18,"name":"Google Shape;532;p58","placeholder":"slideNumber","text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":18,"name":"Content Placeholder 1","text":"02\n批量与多房间\n关闭所有空调、把客厅和卧室的灯都关了，展开为多条 ControlCommand。\n示例：4 个空调动作","textPreview":"02 | 批量与多房间 | 关闭所有空调、把客厅和卧室的灯都关了，展开为多条 ControlCommand。 | 示例：4 个空调动作","textChars":61,"textLines":4,"bbox":[453.33,249.33,374.67,380]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":18,"name":"Content Placeholder 2","text":"03\n场景 / 环境语义\n我出门了、睡觉了、厨房太闷了，转为场景联动或推理动作。\n示例：厨房油烟机打开","textPreview":"03 | 场景 / 环境语义 | 我出门了、睡觉了、厨房太闷了，转为场景联动或推理动作。 | 示例：厨房油烟机打开","textChars":51,"textLines":4,"bbox":[864.28,249.33,374.67,380]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":18,"name":"Google Shape;533;p58","placeholder":"title","text":"系统支持的指令类型","textPreview":"系统支持的指令类型","textChars":9,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"notes","id":"nt/m58z25kb","slide":18,"text":""}
+{"kind":"slide","id":"sl/bat47y1k","slide":19,"title":"项目汇报","textShapes":6}
+{"kind":"textbox","id":"sh/je9cvixc","slide":19,"name":"Footer Placeholder 2","placeholder":"footer","text":"项目汇报","textPreview":"项目汇报","textChars":4,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":19,"name":"Slide Number Placeholder 3","placeholder":"slideNumber","text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":19,"name":"Title 7","placeholder":"title","text":"交互体验与展示","textPreview":"交互体验与展示","textChars":7,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/xs72x4na","slide":19,"name":"Rounded Rectangle 4","bbox":[41.33,249.33,374.67,380]}
+{"kind":"shape","id":"sh/q1orytsv","slide":19,"name":"Rounded Rectangle 5","bbox":[452.67,249.33,374.67,380]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":19,"name":"Rounded Rectangle 6","bbox":[864.28,249.33,374.67,380]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":19,"name":"Content Placeholder 8","text":"Tkinter GUI\n输入、按钮、结果、日志、独立状态看板集中在桌面窗口中。","textPreview":"Tkinter GUI | 输入、按钮、结果、日志、独立状态看板集中在桌面窗口中。","textChars":39,"textLines":2,"bbox":[73.85,291.86,309.64,269.48]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":19,"name":"Content Placeholder 9","text":"HTML 看板\n读取 JSON 状态，浏览器每 2 秒自动刷新，适合投屏演示。","textPreview":"HTML 看板 | 读取 JSON 状态，浏览器每 2 秒自动刷新，适合投屏演示。","textChars":39,"textLines":2,"bbox":[485.85,291.86,309.64,269.48]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":19,"name":"Content Placeholder 10","text":"控制台入口\n无 GUI 时运行 run_console.py，快速验证解析和状态写入。","textPreview":"控制台入口 | 无 GUI 时运行 run_console.py，快速验证解析和状态写入。","textChars":43,"textLines":2,"bbox":[896.79,291.86,309.64,269.48]}
+{"kind":"notes","id":"nt/bat47y1k","slide":19,"text":""}
+{"kind":"slide","id":"sl/j2t83itg","slide":20,"title":"Step 1 训练模型","textShapes":8}
+{"kind":"textbox","id":"sh/90je9cvi","slide":20,"name":"Content Placeholder 9","text":"Step 1 训练模型\npython train_models.py","textPreview":"Step 1 训练模型 | python train_models.py","textChars":34,"textLines":2,"bbox":[41.33,213.33,374.67,208]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":20,"name":"Slide Number Placeholder 1","placeholder":"slideNumber","text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":20,"name":"Content Placeholder 10","text":"Step 2 指令解析\nfrom src.intent_engine import SmartHomeIntentEngine\nengine.parse('厨房太闷了')","textPreview":"Step 2 指令解析 | from src.intent_engine import SmartHomeIntentEngine | engine.parse('厨房太闷了')","textChars":85,"textLines":3,"bbox":[453.33,213.33,374.67,208]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":20,"name":"Content Placeholder 11","text":"Step 3 数据侧车\npython linux_bigdata\\command_replay.py --repeat 2","textPreview":"Step 3 数据侧车 | python linux_bigdata\\command_replay.py --repeat 2","textChars":61,"textLines":2,"bbox":[864.28,213.33,374.67,208]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":20,"name":"Title 2","placeholder":"title","text":"代码演示环节：现场可按三步运行","textPreview":"代码演示环节：现场可按三步运行","textChars":15,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":20,"name":"Content Placeholder 9","text":"输出准确率\nbinary_intent: 0.997\nlocation/device/action: 1.0\n查看 models/metrics.json","textPreview":"输出准确率 | binary_intent: 0.997 | location/device/action: 1.0 | 查看 models/metrics.json","textChars":77,"textLines":4,"bbox":[41.33,433.99,374.67,195.34]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":20,"name":"Content Placeholder 9","text":"演示输入\n打开客厅空调\n打开卧室床帘\n关闭所有空调\n我出门了\n厨房太闷了\n打开原神","textPreview":"演示输入 | 打开客厅空调 | 打开卧室床帘 | 关闭所有空调 | 我出门了 | 厨房太闷了 | 打开原神","textChars":41,"textLines":7,"bbox":[452.26,433.99,374.67,195.34]}
+{"kind":"textbox","id":"sh/1032lszq","slide":20,"name":"Content Placeholder 9","text":"后续命令\nshow_events.py --limit 5\nbatch_analyze.py\nstream_window.py --once","textPreview":"后续命令 | show_events.py --limit 5 | batch_analyze.py | stream_window.py --once","textChars":70,"textLines":4,"bbox":[864.36,433.99,374.67,195.34]}
+{"kind":"notes","id":"nt/j2t83itg","slide":20,"text":""}
+{"kind":"slide","id":"sl/mhk3q5o7","slide":21,"title":"解析能力覆盖","textShapes":8}
+{"kind":"shape","id":"sh/ovahoza1","slide":21,"name":"Rounded Rectangle 5","bbox":[41.33,249.33,374.67,380]}
+{"kind":"shape","id":"sh/dg7adsji","slide":21,"name":"Rounded Rectangle 6","bbox":[452.67,249.33,374.67,380]}
+{"kind":"shape","id":"sh/61032lsz","slide":21,"name":"Rounded Rectangle 7","bbox":[864.28,249.33,374.67,380]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":21,"name":"Content Placeholder 9","text":"解析能力覆盖\n单设备、批量、场景、环境、归一化、拒识","textPreview":"解析能力覆盖 | 单设备、批量、场景、环境、归一化、拒识","textChars":26,"textLines":2,"bbox":[73.85,294.05,309.64,104]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":21,"name":"Slide Number Placeholder 1","placeholder":"slideNumber","text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":21,"name":"Content Placeholder 10","text":"事件数据输出\nevents.jsonl 演示事件，生成 CSV 和 report.md","textPreview":"事件数据输出 | events.jsonl 演示事件，生成 CSV 和 report.md","textChars":43,"textLines":2,"bbox":[485.85,294.05,309.64,104]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":21,"name":"Content Placeholder 11","text":"PPT 交付校验\n最终 deck 使用原生 PPTX，页数超过要求","textPreview":"PPT 交付校验 | 最终 deck 使用原生 PPTX，页数超过要求","textChars":33,"textLines":2,"bbox":[896.79,294.05,309.64,104]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":21,"name":"Title 2","placeholder":"title","text":"代码演示得到的关键输出","textPreview":"代码演示得到的关键输出","textChars":11,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":21,"name":"Content Placeholder 9","text":"6类","textPreview":"6类","textChars":2,"textLines":1,"bbox":[73.74,386.22,308.67,202.8]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":21,"name":"Content Placeholder 9","text":"36条","textPreview":"36条","textChars":3,"textLines":1,"bbox":[484.3,386.22,308.67,202.8]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":21,"name":"Content Placeholder 9","text":"23页","textPreview":"23页","textChars":3,"textLines":1,"bbox":[898.94,386.22,308.67,202.8]}
+{"kind":"notes","id":"nt/mhk3q5o7","slide":21,"text":""}
+{"kind":"slide","id":"sl/5wjudg7a","slide":22,"title":"22","textShapes":16}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":22,"name":"Slide Number Placeholder 1","placeholder":"slideNumber","text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":22,"name":"Title 2","placeholder":"title","text":"事实、测试与改进方向","textPreview":"事实、测试与改进方向","textChars":10,"textLines":1,"bbox":[41.33,36.12,785.77,72.13]}
+{"kind":"shape","id":"sh/9cvixcze","slide":22,"name":"Rounded Rectangle 5","bbox":[41.33,457.33,245.1,197.63]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":22,"name":"Rounded Rectangle 18","bbox":[311.67,457.33,245.1,197.63]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":22,"name":"Rounded Rectangle 19","bbox":[582,457.33,245.1,197.63]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":22,"name":"Footer Placeholder 24","placeholder":"footer","text":"*基于本地项目文件与本次命令输出","textPreview":"*基于本地项目文件与本次命令输出","textChars":16,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":22,"name":"Content Placeholder 2","text":"测试结论\n10 条功能测试覆盖单设备、批量、场景、环境语义、拒识与看板入口，课程报告记录为通过。\n\n改进方向\n补充真实用户语料、加入更多设备、把侧车对接 Kafka / Flink 或数据库。","textPreview":"测试结论 | 10 条功能测试覆盖单设备、批量、场景、环境语义、拒识与看板入口，课程报告记录为通过。 |  | 改进方向 | 补充真实用户语料、加入更多设备、把侧车对接 Kafka / Flink 或数据库。","textChars":96,"textLines":5,"bbox":[864.28,249.33,374.67,405.63]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":22,"name":"Content Placeholder 9","text":"3345","textPreview":"3345","textChars":4,"textLines":1,"bbox":[59.33,479.06,169.33,94.88]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":22,"name":"Content Placeholder 9","text":"二分类样本","textPreview":"二分类样本","textChars":5,"textLines":1,"bbox":[68.93,573.95,169.33,41.25]}
+{"kind":"textbox","id":"sh/obm58z25","slide":22,"name":"Content Placeholder 9","text":"2880","textPreview":"2880","textChars":4,"textLines":1,"bbox":[333.1,479.06,169.33,94.88]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":22,"name":"Content Placeholder 9","text":"槽位样本","textPreview":"槽位样本","textChars":4,"textLines":1,"bbox":[342.7,573.95,169.33,41.25]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":22,"name":"Content Placeholder 9","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[605.94,479.06,169.33,94.88]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":22,"name":"Content Placeholder 9","text":"模型文件","textPreview":"模型文件","textChars":4,"textLines":1,"bbox":[615.54,573.95,169.33,41.25]}
+{"kind":"shape","id":"sh/r65wjudg","slide":22,"name":"Rounded Rectangle 3","bbox":[41.33,235.33,245.1,197.63]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":22,"name":"Rounded Rectangle 4","bbox":[311.67,235.33,245.1,197.63]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":22,"name":"Rounded Rectangle 6","bbox":[582,235.33,245.1,197.63]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":22,"name":"Content Placeholder 9","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[59.33,257.06,169.33,94.88]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":22,"name":"Content Placeholder 9","text":"功能测试","textPreview":"功能测试","textChars":4,"textLines":1,"bbox":[68.93,351.95,169.33,41.25]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":22,"name":"Content Placeholder 9","text":"2s","textPreview":"2s","textChars":2,"textLines":1,"bbox":[333.1,257.06,169.33,94.88]}
+{"kind":"textbox","id":"sh/lwval87e","slide":22,"name":"Content Placeholder 9","text":"HTML 刷新","textPreview":"HTML 刷新","textChars":7,"textLines":1,"bbox":[342.7,351.95,169.33,41.25]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":22,"name":"Content Placeholder 9","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[605.94,257.06,169.33,94.88]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":22,"name":"Content Placeholder 9","text":"共享状态 JSON","textPreview":"共享状态 JSON","textChars":9,"textLines":1,"bbox":[615.54,351.95,169.33,41.25]}
+{"kind":"notes","id":"nt/5wjudg7a","slide":22,"text":""}
+{"kind":"slide","id":"sl/crmhk3q5","slide":23,"title":"本项目完成了可运行的中文智能家居控制助手：从自然语言输入到结构化语义帧，再到设备状态更新。","textShapes":5}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":23,"name":"Google Shape;558;p61","text":"本项目完成了可运行的中文智能家居控制助手：从自然语言输入到结构化语义帧，再到设备状态更新。","textPreview":"本项目完成了可运行的中文智能家居控制助手：从自然语言输入到结构化语义帧，再到设备状态更新。","textChars":45,"textLines":1,"bbox":[41.33,421.33,374.67,208]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":23,"name":"Google Shape;556;p61","placeholder":"slideNumber","text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/cvixczed","slide":23,"name":"Google Shape;559;p61","text":"价值\n规则 + 模型的混合方案适合课程项目：可解释、轻量、离线可运行，并能用 API 模型扩展复杂口语。","textPreview":"价值 | 规则 + 模型的混合方案适合课程项目：可解释、轻量、离线可运行，并能用 API 模型扩展复杂口语。","textChars":52,"textLines":2,"bbox":[453.33,421.33,374.67,208]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":23,"name":"Google Shape;560;p61","text":"答辩演示建议\n先展示 GUI / 控制台解析，再打开 HTML 看板，最后运行 Linux 大数据侧车统计。","textPreview":"答辩演示建议 | 先展示 GUI / 控制台解析，再打开 HTML 看板，最后运行 Linux 大数据侧车统计。","textChars":54,"textLines":2,"bbox":[864.28,421.33,374.67,208]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":23,"name":"Google Shape;557;p61","placeholder":"title","text":"总结","textPreview":"总结","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":23,"name":"Google Shape;561;p61","bbox":[449.33,360.43,33.13,37.15]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":23,"name":"Google Shape;562;p61","bbox":[35.03,360,34.34,38.01]}
+{"kind":"shape","id":"sh/ji5snelo","slide":23,"name":"Google Shape;563;p61","bbox":[862.43,364.79,35.55,28.44]}
+{"kind":"notes","id":"nt/crmhk3q5","slide":23,"text":""}

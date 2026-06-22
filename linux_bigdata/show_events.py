@@ -1,4 +1,9 @@
-"""Print smart-home events in a Windows-friendly table."""
+"""用 Windows 终端友好的表格打印智能家居事件。
+
+新手阅读提示：
+1. events.jsonl 是给程序处理的，不适合人直接看。
+2. 这个脚本把前几条事件整理成对齐的表格，方便快速检查数据是否正常。
+"""
 
 from __future__ import annotations
 
@@ -12,6 +17,11 @@ DEFAULT_EVENTS = MODULE_DIR / "data" / "events.jsonl"
 
 
 def load_events(path: Path, limit: int) -> list[dict]:
+    """读取前 limit 条合法 JSONL 事件。
+
+    limit 用来控制最多显示多少条，避免终端一次刷太多内容。
+    """
+
     events: list[dict] = []
     if not path.exists():
         return events
@@ -31,6 +41,8 @@ def load_events(path: Path, limit: int) -> list[dict]:
 
 
 def main() -> None:
+    """命令行入口：快速查看事件日志内容。"""
+
     parser = argparse.ArgumentParser(description="Show smart-home events as a readable table.")
     parser.add_argument("--events", type=Path, default=DEFAULT_EVENTS, help="JSONL event file path.")
     parser.add_argument("--limit", type=int, default=10, help="How many events to show.")
@@ -44,6 +56,7 @@ def main() -> None:
     print("时间                 房间    设备      动作    来源")
     print("-" * 64)
     for event in events:
+        # :<20 这类写法表示左对齐并占固定宽度，让表格看起来整齐。
         print(
             f"{event.get('event_time', ''):<20} "
             f"{event.get('room', ''):<6} "
@@ -55,4 +68,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

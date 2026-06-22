@@ -3,6 +3,7 @@ Description=Smart Home Big Data Event Collector
 After=network.target
 
 [Service]
+# systemd 后台服务示例：在 Linux 上持续运行事件采集器。
 Type=simple
 WorkingDirectory=/opt/smart-home-system
 ExecStart=/opt/smart-home-system/.venv-linux-bigdata/bin/python /opt/smart-home-system/linux_bigdata/event_collector.py
@@ -11,4 +12,3 @@ RestartSec=3
 
 [Install]
 WantedBy=multi-user.target
-

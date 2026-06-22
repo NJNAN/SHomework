@@ -1,14 +1,19 @@
-"""Batch analytics for smart-home event logs.
+"""智能家居事件日志的批处理统计分析。
 
-The script reads JSONL events and writes small CSV/Markdown reports. It is
-kept outside the main app so analytics can run on Linux without touching the
-original GUI or intent models.
+脚本读取 JSONL 事件，输出 CSV 和 Markdown 报表。它独立于主程序，便于在
+Linux 环境定时运行，不影响原 GUI 或意图模型。
+
+新手阅读提示：
+1. “批处理”就是一次性读入一批历史数据，然后统计结果。
+2. 这里统计的是房间控制次数、设备控制次数、动作次数、小时事件量等。
+3. Counter 是 Python 自带计数工具，适合统计“每个值出现几次”。
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+# Counter 用于计数，例如统计“客厅”出现了多少次。
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
@@ -21,6 +26,11 @@ DEFAULT_OUTPUT = MODULE_DIR / "output"
 
 
 def load_events(path: Path) -> list[dict]:
+    """读取 JSONL 事件文件，并在行格式错误时给出具体位置。
+
+    JSONL 文件每一行都是一个 JSON 对象，所以要逐行读取、逐行解析。
+    """
+
     events: list[dict] = []
     if not path.exists():
         return events
@@ -37,6 +47,8 @@ def load_events(path: Path) -> list[dict]:
 
 
 def event_hour(event: dict) -> str:
+    """把事件时间归并到小时维度，用于统计小时事件量。"""
+
     raw_time = str(event.get("event_time", ""))
     try:
         return datetime.fromisoformat(raw_time).strftime("%H:00")
@@ -45,8 +57,16 @@ def event_hour(event: dict) -> str:
 
 
 def count_by(events: list[dict], *keys: str) -> list[dict]:
+    """按一个或多个字段统计次数，并按次数从高到低返回。
+
+    *keys 表示可以传入任意多个字段名：
+    - count_by(events, "room") 按房间统计。
+    - count_by(events, "room", "device") 按房间+设备组合统计。
+    """
+
     counter: Counter[tuple[str, ...]] = Counter()
     for event in events:
+        # tuple(...) 把多个统计字段组成一个 key，Counter 会自动累加次数。
         counter[tuple(str(event.get(key, "未知")) for key in keys)] += 1
 
     rows: list[dict] = []
@@ -58,11 +78,18 @@ def count_by(events: list[dict], *keys: str) -> list[dict]:
 
 
 def count_by_hour(events: list[dict]) -> list[dict]:
+    """统计每个小时的事件数量。"""
+
     counter = Counter(event_hour(event) for event in events)
     return [{"hour": hour, "count": count} for hour, count in sorted(counter.items())]
 
 
 def write_csv(path: Path, rows: list[dict], headers: list[str]) -> None:
+    """写出简单 CSV 报表。
+
+    这里手动拼 CSV，是因为报表很简单，不必额外引入 pandas。
+    """
+
     path.parent.mkdir(parents=True, exist_ok=True)
     lines = [",".join(headers)]
     for row in rows:
@@ -71,6 +98,11 @@ def write_csv(path: Path, rows: list[dict], headers: list[str]) -> None:
 
 
 def make_markdown_report(events: list[dict], room_rows: list[dict], device_rows: list[dict], hour_rows: list[dict]) -> str:
+    """生成适合课程报告引用的 Markdown 统计摘要。
+
+    Markdown 表格可以直接复制到报告或 README 里。
+    """
+
     lines = [
         "# 智能家居事件批处理分析报告",
         "",
@@ -107,10 +139,13 @@ def make_markdown_report(events: list[dict], room_rows: list[dict], device_rows:
 
 
 def analyze(events_path: Path, output_dir: Path) -> None:
+    """执行完整批处理：读取事件、生成多张统计表和 Markdown 报告。"""
+
     events = load_events(events_path)
     if not events:
         raise SystemExit(f"没有找到事件数据，请先运行: python {MODULE_DIR / 'command_replay.py'}")
 
+    # 分别从不同角度统计同一批事件。
     room_rows = count_by(events, "room")
     device_rows = count_by(events, "device")
     room_device_rows = count_by(events, "room", "device")
@@ -133,6 +168,8 @@ def analyze(events_path: Path, output_dir: Path) -> None:
 
 
 def main() -> None:
+    """命令行入口。"""
+
     parser = argparse.ArgumentParser(description="Analyze smart-home event JSONL logs.")
     parser.add_argument("--events", type=Path, default=DEFAULT_EVENTS, help="JSONL event file path.")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT, help="Report output directory.")
@@ -142,4 +179,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

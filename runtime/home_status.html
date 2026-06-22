@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="2">
+  <title>智能家居状态看板</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
+      background: #eef2f7;
+      color: #0f172a;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 32px;
+    }
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 22px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+      letter-spacing: 0;
+    }
+    .sub {
+      margin: 0;
+      color: #64748b;
+      font-size: 15px;
+    }
+    .summary {
+      min-width: 250px;
+      border-radius: 14px;
+      background: #0f172a;
+      color: white;
+      padding: 18px 20px;
+      text-align: right;
+    }
+    .summary b {
+      display: block;
+      font-size: 30px;
+      line-height: 1.1;
+    }
+    .summary span {
+      color: #cbd5e1;
+      font-size: 14px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .room-card {
+      min-height: 168px;
+      border: 1px solid #dbe3ef;
+      border-radius: 16px;
+      background: #fff;
+      padding: 22px;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+    }
+    .room-card.active {
+      border-color: #86efac;
+      background: #f0fdf4;
+    }
+    .room-card.recent {
+      border-color: #f97316;
+      box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.16);
+    }
+    .room-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 22px;
+    }
+    h2 {
+      margin: 0;
+      font-size: 25px;
+      letter-spacing: 0;
+    }
+    .room-head strong {
+      flex: 0 0 auto;
+      border-radius: 999px;
+      padding: 7px 12px;
+      background: #e2e8f0;
+      color: #475569;
+      font-size: 15px;
+    }
+    .active .room-head strong {
+      background: #dcfce7;
+      color: #15803d;
+    }
+    .devices {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      min-height: 40px;
+    }
+    .devices span {
+      border-radius: 999px;
+      background: #dcfce7;
+      color: #166534;
+      padding: 8px 13px;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .devices em {
+      color: #94a3b8;
+      font-style: normal;
+      font-size: 16px;
+    }
+    .recent-line {
+      margin-top: 18px;
+      color: #ea580c;
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .wide {
+      grid-column: span 3;
+    }
+    footer {
+      margin-top: 18px;
+      color: #94a3b8;
+      font-size: 13px;
+    }
+    @media (max-width: 860px) {
+      main { padding: 20px; }
+      header { display: block; }
+      .summary { text-align: left; margin-top: 16px; }
+      .grid { grid-template-columns: 1fr; }
+      .wide { grid-column: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>智能家居状态看板</h1>
+        <p class="sub">最近：离家模式：6 个动作 · 状态时间：2026-06-21T22:34:53</p>
+      </div>
+      <div class="summary">
+        <b>4/24</b>
+        <span>设备正在开启</span>
+      </div>
+    </header>
+    <section class="grid">
+      
+            <section class="room-card wide active recent">
+              <div class="room-head">
+                <h2>客厅</h2>
+                <strong>开启 1/5</strong>
+              </div>
+              <div class="devices"><span>窗帘</span></div>
+              <div class="recent-line">本次操作：灯、空调、电视</div>
+            </section>
+            
+            <section class="room-card active recent">
+              <div class="room-head">
+                <h2>卧室</h2>
+                <strong>开启 1/4</strong>
+              </div>
+              <div class="devices"><span>窗帘</span></div>
+              <div class="recent-line">本次操作：空调</div>
+            </section>
+            
+            <section class="room-card active">
+              <div class="room-head">
+                <h2>厨房</h2>
+                <strong>开启 1/3</strong>
+              </div>
+              <div class="devices"><span>油烟机</span></div>
+              
+            </section>
+            
+            <section class="room-card">
+              <div class="room-head">
+                <h2>卫生间</h2>
+                <strong>开启 0/3</strong>
+              </div>
+              <div class="devices"><em>全部关闭</em></div>
+              
+            </section>
+            
+            <section class="room-card active recent">
+              <div class="room-head">
+                <h2>书房</h2>
+                <strong>开启 1/4</strong>
+              </div>
+              <div class="devices"><span>窗帘</span></div>
+              <div class="recent-line">本次操作：空调</div>
+            </section>
+            
+            <section class="room-card">
+              <div class="room-head">
+                <h2>阳台</h2>
+                <strong>开启 0/2</strong>
+              </div>
+              <div class="devices"><em>全部关闭</em></div>
+              
+            </section>
+            
+            <section class="room-card recent">
+              <div class="room-head">
+                <h2>餐厅</h2>
+                <strong>开启 0/3</strong>
+              </div>
+              <div class="devices"><em>全部关闭</em></div>
+              <div class="recent-line">本次操作：空调</div>
+            </section>
+            
+    </section>
+    <footer>页面每 2 秒自动刷新。生成时间：2026-06-21 22:34:53</footer>
+  </main>
+</body>
+</html>

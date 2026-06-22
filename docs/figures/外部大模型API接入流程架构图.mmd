@@ -1,0 +1,10 @@
+flowchart TB
+    A["用户输入指令"]
+    B["调用外部大模型 API"]
+    C["返回并校验 JSON 语义帧"]
+    D["输出结构化意图并执行控制"]
+
+    A --> B --> C --> D
+
+    classDef step fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0f172a;
+    class A,B,C,D step;
